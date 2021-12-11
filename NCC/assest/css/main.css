@@ -1,6 +1,6 @@
-.main {
-	width: 100%;
-	box-sizing: border-box;
+body {
+	padding: 0;
+	margin: 0;
 }
 
 .main__row {
@@ -36,13 +36,15 @@
 .main .colum-10 .image {
 	width: 310;
 	height: 122px;
+	padding-top: 10px;
+	padding-bottom: 30px;
 }
 
 .main .header {
 	width: 80%;
 	height: 300px;
 	background: #C8C6C6;
-	margin: auto;
+	margin: 0 129px;
 	padding: 40px;
 	box-sizing: border-box;
 }
@@ -65,9 +67,14 @@
 	margin-top: 30px;
 }
 
+.posts .post {
+	width: 300px;
+}
+
 .posts .post-title {
 	font-weight: bold;
 	padding-bottom: 10px;
+	text-align: left;
 }
 
 .posts .post-content {
@@ -77,4 +84,13 @@
 .posts .post-img {
 	width: 100px;
 	height: 100px;
+}
+
+.posts .post-para1 {
+	width: 326px;
+	height: 124px;
+}
+
+.posts .post-para2 {
+	margin-top: -20px;
 }
