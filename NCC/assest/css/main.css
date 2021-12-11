@@ -1,6 +1,9 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 .main__row {
@@ -9,58 +12,73 @@ body {
 
 /*Menu*/
 .colum-2 {
-	background: #000;
+	background: #191718;
 	color: #fff;
-	width: 12%;
-	height: 1000px;
+	width: 150px;
+	height: 1100px;
 }
 
 .main .menu {
 	padding-left: 0px;
+	margin: 0;
 }
 
 .main .menu .menu-item {
+	color: #AAAAAA;
 	list-style: none;
-	height: 40px;
-	line-height: 35px;
-	border-bottom: 1px solid #fff;
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #5C5C5C;
 	padding-left: 15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.main .menu .menu-item:hover {
+	background: #5C5C5C;
+	color: #FFFFFF;
 }
 
 /*Content*/
 .main .colum-10 {
-	width: 80%;
+	width: 100%;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 .main .colum-10 .image {
-	width: 310;
+	width: 310px;
 	height: 122px;
-	padding-top: 10px;
-	padding-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .main .header {
 	width: 80%;
-	height: 300px;
-	background: #C8C6C6;
+	height: 238px;
+	background: #EFEFEF;
 	margin: 0 129px;
-	padding: 40px;
+	padding: 38px;
 	box-sizing: border-box;
 }
 
 .main .header__title {
 	font-weight: bold;
-	font-size: 17px;
-	padding-bottom: 20px;
+	font-size: 18px;
+	padding-bottom: 18px;
 }
 
 .main .header__para {
-	text-align: center;
+	width: 80%;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 auto 38px auto;
+	color: #000000;
 }
 
 /*Post*/
 .posts {
+	height: auto;
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
@@ -68,7 +86,8 @@ body {
 }
 
 .posts .post {
-	width: 300px;
+	width: 22%;
+	box-sizing: border-box;
 }
 
 .posts .post-title {
@@ -82,15 +101,16 @@ body {
 }
 
 .posts .post-img {
-	width: 100px;
-	height: 100px;
+	width: 128px;
+	height: 128px;
 }
 
-.posts .post-para1 {
-	width: 326px;
-	height: 124px;
+.post-title {
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
 }
 
-.posts .post-para2 {
-	margin-top: -20px;
+.post-para1, .post-para2 {
+	text-align: justify;
 }
